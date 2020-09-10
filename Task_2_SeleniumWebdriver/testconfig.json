@@ -1,0 +1,43 @@
+{
+  "browsers": {
+
+    "chrome": {
+      "pathChromeDriver": "D:\\A1QE\\WebDrivers\\chromedriver_win32",
+      "options": {
+        "leaveBrowserRunning": "true",
+        "startSizeWindow": "start-maximized",
+        "mode": "--incognito",
+        "implicitWait": 59
+      }
+    },
+    "firefox": {
+      "pathCromeDriver": "D:\\A1QE\\WebDrivers\\geckodriver-v0.27.0-win32",
+      "options": {
+        "implicitWait": 59 
+      }
+    }
+
+  },
+  "pages": {
+    "homePage": {
+      "url": "https://market.yandex.ru",
+      "chechLoadElement": ".//a[@id='logoPartMarket']",
+      "searchElement": "",      
+      "numberCategories": 19
+    },
+    "autorizationPage": {
+      "autorizationButton": ".//a[@data-tid='e1c9fd84 2a7436b5']",
+      "loginElement": "input[name='login']",
+      "passwordElement": "input[id='passp-field-passwd']",
+      "enterButtonElement": "button[type='submit'][class*='Button2']",
+      "chechLoadElement": "button[data-tid='dc1632ca 1badb8e1']",
+      "logOutElement": "button[data-tid='dc1632ca 1badb8e1']"
+    }
+
+  },
+  "userCred": {
+    "login": "",
+    "password": ""
+  },
+  "dirToCsvFile": "D:\\A1QE\\Projects\\Task_2_SeleniumWebdriver\\Task_2_SeleniumWebdriver"
+}
