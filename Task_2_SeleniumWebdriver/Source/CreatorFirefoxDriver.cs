@@ -14,7 +14,7 @@ namespace Task_2_SeleniumWebdriver.Source
         private readonly TypeWebDriver type;
 
         public CreatorFirefoxDriver() {
-            path = Configuration.Get["browsers:firefox:pathCromeDriver"];
+            path = Configuration.Get["browsers:firefox:pathGeckoDriver"];
             name = "FirefoxDriver";
         }
         public IWebDriver CreateDriver() {

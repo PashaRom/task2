@@ -11,9 +11,9 @@
       }
     },
     "firefox": {
-      "pathCromeDriver": "D:\\A1QE\\WebDrivers\\geckodriver-v0.27.0-win32",
+      "pathGeckoDriver": "D:\\A1QE\\WebDrivers\\geckodriver-v0.27.0-win32",
       "options": {
-        "implicitWait": 59 
+        "implicitWait": 59
       }
     }
 
